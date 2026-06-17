@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFest 2026 | Annual College Festival</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-warning" href="#">🎓 TechFest</a>
+            <button class="navbar-dark navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#register">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero-section text-center text-white d-flex align-items-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold bg-text-dark">TechFest 2026</h1>
+            <p class="lead fs-4 my-4">Unleash Your Creativity & Talent</p>
+            <div class="d-flex justify-content-center gap-3 my-4">
+                <div class="p-3 bg-dark text-warning rounded shadow"><strong>03</strong><br>Days</div>
+                <div class="p-3 bg-dark text-warning rounded shadow"><strong>12</strong><br>Hours</div>
+                <div class="p-3 bg-dark text-warning rounded shadow"><strong>45</strong><br>Mins</div>
+            </div>
+            <a href="#register" class="btn btn-warning btn-lg fw-bold px-5 mt-2">Register Now</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container text-center py-4">
+            <h2 class="fw-bold mb-3">About The Festival</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <p class="text-muted fs-5">
+                        Welcome to our university's grandest annual celebration! TechFest brings together thousands of students from across the country to compete, collaborate, and showcase talent across tech, arts, and culture.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="py-5">
+        <div class="container py-4">
+            <h2 class="text-center fw-bold mb-5">Featured Events</h2>
+            <div class="row g-4">
+                <!-- Event 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow border-0">
+                        <div class="card-body">
+                            <span class="badge bg-danger mb-2">Technical</span>
+                            <h4 class="card-title fw-bold">Hackathon 4.0</h4>
+                            <p class="card-text text-muted">A 24-hour coding challenge to solve real-world industry problems and build working prototypes.</p>
+                            <p class="text-dark fw-bold mb-0">🕒 Time: 09:00 AM</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Event 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow border-0">
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-2">Cultural</span>
+                            <h4 class="card-title fw-bold">Battle of Bands</h4>
+                            <p class="card-text text-muted">Watch the top college music bands square off on the grand open-air auditorium stage.</p>
+                            <p class="text-dark fw-bold mb-0">🕒 Time: 04:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Event 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow border-0">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Gaming</span>
+                            <h4 class="card-title fw-bold">Esports Arena</h4>
+                            <p class="card-text text-muted">Compete against top-tier competitive squads in fast-paced multi-player tournaments.</p>
+                            <p class="text-dark fw-bold mb-0">🕒 Time: 11:30 AM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register" class="py-5 bg-dark text-white">
+        <div class="container py-4">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <h2 class="text-center fw-bold mb-4 text-warning">Secure Your Ticket</h2>
+                    <form class="bg-secondary p-4 rounded shadow">
+                        <div class="mb-3">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-control" required placeholder="John Doe">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" class="form-control" required placeholder="john@university.edu">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Select Event</label>
+                            <select class="form-select">
+                                <option>Hackathon 4.0</option>
+                                <option>Battle of Bands</option>
+                                <option>Esports Arena</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-warning w-100 fw-bold mt-2">Submit Registration</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-center text-muted py-3">
+        <div class="container">
+            <small>&copy; 2026 TechFest. Built with Bootstrap.</small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://jsdelivr.net"></script>
+</body>
+</html>
